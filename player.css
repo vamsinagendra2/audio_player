@@ -1,0 +1,33 @@
+body{
+    margin: auto; 
+}
+div{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid black; */
+}
+audio{
+    display: none;
+}
+canvas{
+    width: 100%;
+    margin-top: 80px;
+    box-shadow: 10px 10px 80px gray;
+}
+button{
+    margin: 50px 0 0 5%;
+    width: 7vw;
+    height: 70px;
+    border-radius:20% ;
+    background-color: rgb(255, 255, 255);
+    border: 4px solid rgb(103, 189, 243);
+}
+i{
+    font-size: 25px;
+    color: rgb(107, 194, 248);
+}
+#mute{
+    margin-left: 35%;
+    width: 6vw;
+    height: 50px;
+}
