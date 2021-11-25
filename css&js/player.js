@@ -83,6 +83,7 @@ song.onplay = function () {
 var time;
 function start() {
     time = setInterval(() => {
+        c.style.boxShadow = "10px 10px 80px black "
         musicflux("e", loc);
         loc += Math.floor(screenlength / duration);
         if (song.currentTime == duration) {
@@ -94,6 +95,7 @@ function start() {
     }, 1000);
 }
 song.onpause = function () {
+    c.style.boxShadow="0px 0px 10px gray "
     clearInterval(time);
     loc = Math.floor(song.currentTime) * (screenlength / duration);
 }
